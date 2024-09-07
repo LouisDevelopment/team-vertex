@@ -1,26 +1,37 @@
-# Build stage
-FROM node:18 AS build-stage
+# Step 1: Use the official Node.js image as the base image
+FROM node:18 AS build
+
+# Step 2: Set the working directory for the build process
 WORKDIR /app
 
-# Copy and install Vue.js dependencies
-COPY /app/team-vertex/package*.json ./
+# Step 3: Copy the package.json and package-lock.json files to the working directory
+COPY package*.json ./
+
+# Step 4: Install the dependencies for both the Express and Vue.js apps
 RUN npm install
 
-# Copy the Vue.js app source and build it
-COPY /app/team-vertex/ ./
+# Step 5: Copy the rest of the application code to the working directory
+COPY . .
+
+# Step 6: Build the Vue.js app
+WORKDIR /app/team-vertex
+RUN npm install
 RUN npm run build
 
-# Production stage
-FROM node:18 AS production-stage
+# Step 7: Prepare the final image
+FROM node:18
+
+# Step 8: Set the working directory for the final image
 WORKDIR /app
 
-# Copy the built Vue.js app from the build stage
-COPY --from=build-stage /app/team-vertex/dist ./dist
+# Step 9: Copy the Express app code and built Vue.js app assets from the build stage
+COPY --from=build /app /app
 
-# Copy the Express app source code
-WORKDIR /app
-RUN npm install
-
-# Expose port and start the Express server
+# Step 10: Expose the port that the Express app will listen on
 EXPOSE 8080
+
+# Step 11: Set the environment variable for the port
+ENV PORT=8080
+
+# Step 12: Run the Express app
 CMD ["node", "index.js"]
