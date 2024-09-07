@@ -12,6 +12,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -75,7 +82,7 @@
       <workItem from="1725648908064" duration="632000" />
       <workItem from="1725649591394" duration="551000" />
       <workItem from="1725650243502" duration="7018000" />
-      <workItem from="1725711684995" duration="16247000" />
+      <workItem from="1725711684995" duration="17397000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -85,7 +92,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725740956924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test">
+      <option name="closed" value="true" />
+      <created>1725742041032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725742041032</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test">
+      <option name="closed" value="true" />
+      <created>1725742860785</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725742860785</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
