@@ -6,7 +6,7 @@
         <p>
           Team Vertex is a game development company (just one guy at the moment) with plans to release a game on Steam in the coming year.
           We (still just me...) also plan to release several browser based games built directly into this website! More updates and progress will be shared soon.
-          In the mean time feel free to check out my <a href="https://www.youtube.com/@LouisPog">YouTube account</a>
+          In the mean time feel free to check out my <a href="https://www.youtube.com/@LouisPog">YouTube channel</a>
         </p>
         <p style="margin-top: 16px">
           This website is a work in progress. Games and other updates will all be added sporadically.
