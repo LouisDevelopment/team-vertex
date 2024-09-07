@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a03e1ca-ecce-4379-ba3e-9bf427eac0b7" name="Changes" comment="Test">
+    <list default="true" id="4a03e1ca-ecce-4379-ba3e-9bf427eac0b7" name="Changes" comment="Define correct start command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/src/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/src/components/Content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/components/Content.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -82,7 +92,7 @@
       <workItem from="1725648908064" duration="632000" />
       <workItem from="1725649591394" duration="551000" />
       <workItem from="1725650243502" duration="7018000" />
-      <workItem from="1725711684995" duration="17397000" />
+      <workItem from="1725711684995" duration="24090000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -108,7 +118,87 @@
       <option name="project" value="LOCAL" />
       <updated>1725742860785</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test">
+      <option name="closed" value="true" />
+      <created>1725743290995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725743290995</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Define correct start command">
+      <option name="closed" value="true" />
+      <created>1725743701883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725743701883</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Define correct start command">
+      <option name="closed" value="true" />
+      <created>1725744115699</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725744115699</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Define correct start command">
+      <option name="closed" value="true" />
+      <created>1725744614101</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725744614101</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Define correct start command">
+      <option name="closed" value="true" />
+      <created>1725744755657</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725744755657</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Define correct start command">
+      <option name="closed" value="true" />
+      <created>1725745149535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725745149535</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Define correct start command">
+      <option name="closed" value="true" />
+      <created>1725745448412</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725745448412</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Define correct start command">
+      <option name="closed" value="true" />
+      <created>1725745659329</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725745659329</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Define correct start command">
+      <option name="closed" value="true" />
+      <created>1725746076135</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725746076135</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Define correct start command">
+      <option name="closed" value="true" />
+      <created>1725746292097</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725746292097</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Define correct start command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Define correct start command" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

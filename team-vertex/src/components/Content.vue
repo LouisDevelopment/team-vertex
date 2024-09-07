@@ -39,9 +39,10 @@
   flex-direction: column;
   margin:0px;
   padding: 0px;
+  width: 100%;
   text-align: center;
   justify-content: center; /* Centers horizontally */
-  align-items: flex-start; /* Align items to the top */
+  align-items: center; /* Align items to the top */
 }
 .post{
   margin-bottom: 16px;
@@ -49,6 +50,6 @@
   display: flex;
   text-align: center;
   justify-content: center; /* Centers horizontally */
-  align-items: flex-start; /* Align items to the top */
+  align-items: center; /* Align items to the top */
 }
 </style>

@@ -30,11 +30,11 @@
         headerItems: [
           {
             name: "Profile",
-            icon: "fa-solid fa-user"
+            icon: "fa-regular fa-user"
           },
           {
             name: "Logout",
-            icon: "fa-solid fa-right-from-bracket",
+            icon: "fa-regular fa-right-from-bracket",
           }
         ],
       }
@@ -83,8 +83,5 @@
   border-radius: 0px;
   margin:0px;
   height: 60px;
-}
-.header-button:hover {
-  background-color: var(--p-primary-300);
 }
 </style>
