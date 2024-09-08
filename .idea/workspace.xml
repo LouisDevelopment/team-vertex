@@ -4,15 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a03e1ca-ecce-4379-ba3e-9bf427eac0b7" name="Changes" comment="Define correct start command">
+    <list default="true" id="4a03e1ca-ecce-4379-ba3e-9bf427eac0b7" name="Changes" comment="Fixed dynamic page settings">
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/Build/Geometry Smash.data.br" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/Build/Geometry Smash.framework.js.br" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/Build/Geometry Smash.loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/Build/Geometry Smash.wasm.br" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/MemoryProfiler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/fullscreen-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/progress-bar-empty-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/progress-bar-empty-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/progress-bar-full-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/progress-bar-full-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/unity-logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/unity-logo-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/webgl-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/webmemd-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/team-vertex/src/components/Game.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team-vertex/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/src/assets/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/src/assets/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/src/components/Content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/components/Content.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team-vertex/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/components/NavBar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team-vertex/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +60,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Louis/IdeaProjects/team-vertex",
+    "last_opened_file_path": "C:/Users/Louis/IdeaProjects/team-vertex/team-vertex/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +77,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Louis\IdeaProjects\team-vertex\team-vertex\public" />
       <recent name="C:\Users\Louis\IdeaProjects\team-vertex\team-vertex\src\components" />
       <recent name="C:\Users\Louis\IdeaProjects\team-vertex\team-vertex\src" />
       <recent name="C:\Users\Louis\IdeaProjects\team-vertex\.idea" />
@@ -92,7 +108,7 @@
       <workItem from="1725648908064" duration="632000" />
       <workItem from="1725649591394" duration="551000" />
       <workItem from="1725650243502" duration="7018000" />
-      <workItem from="1725711684995" duration="24090000" />
+      <workItem from="1725711684995" duration="30340000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -198,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725746292097</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixed dynamic page settings">
+      <option name="closed" value="true" />
+      <created>1725751838444</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1725751838444</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +231,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Define correct start command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Define correct start command" />
+    <MESSAGE value="Fixed dynamic page settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed dynamic page settings" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

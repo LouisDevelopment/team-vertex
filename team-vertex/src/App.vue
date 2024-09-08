@@ -1,8 +1,9 @@
 <template>
   <NavBar/>
+  <SideBar></SideBar>
   <div class="app-container">
     <div class="content">
-      <Content/>
+      <RouterView/>
     </div>
     <footer class="footer">
       <Footer/>
@@ -14,6 +15,7 @@
 import NavBar from "@/components/NavBar.vue";
 import Content from "@/components/Content.vue";
 import Footer from "@/components/Footer.vue";
+import Game from "@/components/Game.vue";
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 
@@ -22,7 +24,8 @@ export default {
   components: {
     NavBar,
     Content,
-    Footer
+    Footer,
+    Game
   },
 }
 </script>

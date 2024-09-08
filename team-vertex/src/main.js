@@ -54,7 +54,7 @@ const CustomTheme = definePreset(Aura, {
         colorScheme: {
             light: {
                 background: '{zinc.200}',
-                header: '{zinc.700}',
+                header: '{neutral.700}',
                 surface: {
                     0: '#ffffff',
                     50: '{zinc.50}',

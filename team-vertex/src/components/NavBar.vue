@@ -1,13 +1,18 @@
 <template>
   <div class="header">
     <div class="header-left">
-      <img class="logo" src="../assets/VertexLogo.png">
+      <img class="logo" @click="homePage" src="../assets/VertexLogo.png">
     </div>
     <div class="header-right">
+      <Button class="header-button" text aria-label="Play Games" @click="gamePage">
+      <i style="padding:8px;" :class="headerItems[1].icon">
+
+      </i>
+    </Button>
       <Button class="header-button" text aria-label="profile" @click="toggleProfile">
         <i style="padding:8px;" :class="headerItems[0].icon">
           <Popover ref="op" style="text-align:center;">
-            <SelectButton v-model="viewMode" :options="lightDarkOptions"></SelectButton>
+            <SelectButton v-model="viewMode" :allowEmpty="false" :options="lightDarkOptions"></SelectButton>
           </Popover>
         </i>
       </Button>
@@ -33,8 +38,8 @@
             icon: "fa-regular fa-user"
           },
           {
-            name: "Logout",
-            icon: "fa-regular fa-right-from-bracket",
+            name: "Play",
+            icon: "fa-solid fa-play",
           }
         ],
       }
@@ -42,10 +47,22 @@
     methods:{
       toggleProfile(event){
         this.$refs.op.toggle(event);
+      },
+      gamePage(){
+        this.$router.push("/games");
+      },
+      homePage(){
+        this.$router.push("/");
+      }
+    },
+    mounted(){
+      if(localStorage.getItem('darkMode') == 'Dark'){
+        this.viewMode = 'Dark'
       }
     },
     watch: {
       viewMode: function(){
+        localStorage.setItem('darkMode', this.viewMode);
         const element = document.querySelector('html');
         element.classList.toggle('dark-mode');
       }
@@ -69,6 +86,7 @@
 
 .header-left .logo {
   padding: 0px;
+  cursor: pointer;
   margin: 4px 0px 0px 4px;
   max-height: 48px; /* Adjust this value as needed */
   width: auto; /* Keeps the aspect ratio of the logo */
