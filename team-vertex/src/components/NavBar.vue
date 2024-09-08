@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-left">
-      <img class="logo" @click="homePage" src="../assets/VertexLogo.png">
+      <img class="logo" @click="homePage" draggable="false" src="../assets/VertexLogo.png">
     </div>
     <div class="header-right">
       <Button class="header-button" text aria-label="Play Games" @click="gamePage">
@@ -90,6 +90,12 @@
   margin: 4px 0px 0px 4px;
   max-height: 48px; /* Adjust this value as needed */
   width: auto; /* Keeps the aspect ratio of the logo */
+
+  user-select: none; /* Prevents text selection */
+  -webkit-user-drag: none; /* Prevents dragging in WebKit-based browsers */
+  -moz-user-select: none; /* For older Firefox versions */
+  -webkit-touch-callout: none; /* Prevents iOS callout actions */
+  -ms-user-select: none; /* Prevents selection in Internet Explorer */
 }
 
 /* Float the link section to the right */

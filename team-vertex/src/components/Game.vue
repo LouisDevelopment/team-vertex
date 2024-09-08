@@ -1,4 +1,8 @@
 <template>
+  <div id="heading">
+    <h1>Test Game</h1>
+    <h2>This game has no content, just testing things right now.</h2>
+  </div>
   <div id="unity-container">
     <!-- This div will be the container for the Unity game -->
     <iframe
