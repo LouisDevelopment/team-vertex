@@ -24,6 +24,9 @@ app.use(express.static('team-vertex/dist', {
         }
     }
 }));
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
 const port = process.env.port || 8080;
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
