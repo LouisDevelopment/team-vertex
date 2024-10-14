@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a03e1ca-ecce-4379-ba3e-9bf427eac0b7" name="Changes" comment="fixed wasm.br warning">
+    <list default="true" id="4a03e1ca-ecce-4379-ba3e-9bf427eac0b7" name="Changes" comment="for gh-pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/Build/Geometry Smash.data.br" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/Build/Geometry Smash.framework.js.br" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/Build/Geometry Smash.loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/Build/Geometry Smash.wasm.br" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/MemoryProfiler.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/fullscreen-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/progress-bar-empty-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/progress-bar-empty-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/progress-bar-full-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/progress-bar-full-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/unity-logo-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/unity-logo-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/webgl-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/TemplateData/webmemd-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/public/Geometry Smash/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/src/components/Game.vue" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/components/Game.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team-vertex/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-vertex/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/team-vertex/dist/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
@@ -53,25 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Louis/IdeaProjects/team-vertex/team-vertex/public/Geometry Smash",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "ts.external.directory.path": "Y:\\IntelliJ IDEA 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Louis/IdeaProjects/team-vertex/team-vertex/public/Geometry Smash&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;Y:\\IntelliJ IDEA 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Louis\IdeaProjects\team-vertex\team-vertex\public\Geometry Smash" />
@@ -107,6 +95,7 @@
       <workItem from="1725650243502" duration="7018000" />
       <workItem from="1725711684995" duration="30687000" />
       <workItem from="1725786458902" duration="6333000" />
+      <workItem from="1728919107202" duration="1836000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -244,11 +233,38 @@
       <option name="project" value="LOCAL" />
       <updated>1725786926610</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="for gh-pages">
+      <option name="closed" value="true" />
+      <created>1728079783366</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728079783366</updated>
+    </task>
+    <task id="LOCAL-00019" summary="for gh-pages">
+      <option name="closed" value="true" />
+      <created>1728921545597</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1728921545597</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
@@ -256,7 +272,8 @@
     <MESSAGE value="Fixed dynamic page settings" />
     <MESSAGE value="Added test game" />
     <MESSAGE value="fixed wasm.br warning" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed wasm.br warning" />
+    <MESSAGE value="for gh-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="for gh-pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
